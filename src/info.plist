@@ -611,8 +611,8 @@ on alfred_script(q)try	tell application "System Events"		tell process "Sonos"
 				<integer>0</integer>
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
-readonly remote_info_plist='https://github.com/chrismessina/alfred-sonos-toolkit/blob/master/src/info.plist?raw=true'
-readonly workflow_url='https://github.com/chrismessina/alfred-sonos-toolkit/blob/master/sonos-toolkit.alfredworkflow?raw=true'
+readonly remote_info_plist='https://github.com/chrismessina/alfred-sonos-toolkit/blob/main/src/info.plist?raw=true'
+readonly workflow_url='https://github.com/chrismessina/alfred-sonos-toolkit/blob/main/sonos-toolkit.alfredworkflow?raw=true'
 readonly download_type='direct'
 readonly frequency_check='30'
 
