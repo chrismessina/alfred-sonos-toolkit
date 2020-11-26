@@ -1,6 +1,6 @@
 # Sonos Toolkit for Alfred
 
-<img src="../../assets/icon-sonos.png" alt="Sonos logo" width="128" height="128">
+<img src="./assets/icon-sonos.png" alt="Sonos logo" width="128" height="128">
 
 The Sonos Toolkit for Alfred offers a set of keywords that let you quickly interact with Sonos's [Mac app](https://support.sonos.com/s/downloads).
 
@@ -9,9 +9,9 @@ This extension doesn't support programmatic access to Sonos, like searching your
 
 # Installation
 
-<a href="https://github.com/chrismessina/alfred-app/raw/master/workflows/sonos-toolkit/sonos-toolkit.alfredworkflow"><img src="../../assets/icon-workflow.png" alt="Workflow File Icon" width="128" height="128"></a>
+<a href="https://github.com/chrismessina/alfred-sonos-toolkit/raw/master/sonos-toolkit.alfredworkflow"><img src="./assets/icon-workflow.png" alt="Workflow File Icon" width="128" height="128"></a>
 
-1. Download [sonos-toolkit.alfredworkflow](https://github.com/chrismessina/alfred-app/raw/master/workflows/sonos-toolkit/sonos-toolkit.alfredworkflow).
+1. Download [sonos-toolkit.alfredworkflow](https://github.com/chrismessina/alfred-sonos-toolkit/raw/master/sonos-toolkit.alfredworkflow).
 2. Double-click `sonos-toolkit.alfredworkflow` to install it.
 
 _You will need to be an [Alfred Powerpack](https://www.alfredapp.com/powerpack/) user to enable this workflow._
@@ -36,6 +36,12 @@ You can use the following keywords to control Sonos:
 
 # Changelog[¹](https://keepachangelog.com/)
 
+## [v0.1.2] - 2020-11-26
+
+### Changed
+- Some tweaks to AppleScripts. No major functionality differences
+- Update OneUpdater
+
 ## [v0.1.0] - 2020-08-06
 - Initial Release
 
@@ -43,4 +49,4 @@ You can use the following keywords to control Sonos:
 
 This workflow is unaffiliated with nor endorsed by Sonos. Thanks to [Daniel John Jones](https://twitter.com/ideoforms?s=21) for his support.
 
-You can [file bugs](https://github.com/chrismessina/alfred-app/issues/new) or [submit feature requests](https://github.com/chrismessina/alfred-app/issues/new) on GitHub using the label `workflow:sonos-toolkit`.
+You can [file bugs](https://github.com/chrismessina/alfred-sonos-toolkit/issues/new) or [submit feature requests](https://github.com/chrismessina/alfred-sonos-toolkit/issues/new) on GitHub using the label `workflow:sonos-toolkit`.

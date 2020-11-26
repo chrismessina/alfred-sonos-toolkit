@@ -98,6 +98,16 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>42B8B261-4E4D-4557-909E-BA119456A7AF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>94AA3B53-B7F5-4182-97D6-8114A3CF1829</key>
 		<array>
@@ -595,45 +605,14 @@ on alfred_script(q)try	tell application "System Events"		tell process "Sonos"
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>F0858183-1BFA-4921-8C5B-6C8539F9EDDD</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
-readonly remote_info_plist='https://github.com/chrismessina/alfred-app/blob/master/workflows/sonos-toolkit/src/info.plist?raw=true'
-readonly workflow_url='https://github.com/chrismessina/alfred-app/blob/master/workflows/sonos-toolkit/sonos-toolkit.alfredworkflow?raw=true'
+readonly remote_info_plist='https://github.com/chrismessina/alfred-sonos-toolkit/blob/master/src/info.plist?raw=true'
+readonly workflow_url='https://github.com/chrismessina/alfred-sonos-toolkit/blob/master/sonos-toolkit.alfredworkflow?raw=true'
 readonly download_type='direct'
 readonly frequency_check='30'
 
@@ -710,7 +689,38 @@ fi</string>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>3C88755F-B264-48DC-B012-6B24EC7F8486</string>
+			<string>42B8B261-4E4D-4557-909E-BA119456A7AF</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>F0858183-1BFA-4921-8C5B-6C8539F9EDDD</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -984,23 +994,23 @@ Inspired by Jeff Johns’s [Sonos Sound Controls workflow](https://github.com/ph
 			<key>ypos</key>
 			<integer>390</integer>
 		</dict>
-		<key>3C88755F-B264-48DC-B012-6B24EC7F8486</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>12</integer>
-			<key>note</key>
-			<string>OneUpdater</string>
-			<key>xpos</key>
-			<integer>725</integer>
-			<key>ypos</key>
-			<integer>540</integer>
-		</dict>
 		<key>422FBA9F-5A81-4688-89FA-A69C2D92F697</key>
 		<dict>
 			<key>xpos</key>
 			<integer>925</integer>
 			<key>ypos</key>
 			<integer>100</integer>
+		</dict>
+		<key>42B8B261-4E4D-4557-909E-BA119456A7AF</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>OneUpdater</string>
+			<key>xpos</key>
+			<integer>925</integer>
+			<key>ypos</key>
+			<integer>540</integer>
 		</dict>
 		<key>48187ADB-ECA7-4272-BA37-D9230357ECB7</key>
 		<dict>
