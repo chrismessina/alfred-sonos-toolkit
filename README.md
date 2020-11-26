@@ -9,9 +9,9 @@ This extension doesn't support programmatic access to Sonos, like searching your
 
 # Installation
 
-<a href="https://github.com/chrismessina/alfred-sonos-toolkit/raw/master/sonos-toolkit.alfredworkflow"><img src="./assets/icon-workflow.png" alt="Workflow File Icon" width="128" height="128"></a>
+<a href="https://github.com/chrismessina/alfred-sonos-toolkit/raw/main/sonos-toolkit.alfredworkflow"><img src="./assets/icon-workflow.png" alt="Workflow File Icon" width="128" height="128"></a>
 
-1. Download [sonos-toolkit.alfredworkflow](https://github.com/chrismessina/alfred-sonos-toolkit/raw/master/sonos-toolkit.alfredworkflow).
+1. Download [sonos-toolkit.alfredworkflow](https://github.com/chrismessina/alfred-sonos-toolkit/raw/main/sonos-toolkit.alfredworkflow).
 2. Double-click `sonos-toolkit.alfredworkflow` to install it.
 
 _You will need to be an [Alfred Powerpack](https://www.alfredapp.com/powerpack/) user to enable this workflow._
