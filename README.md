@@ -50,3 +50,5 @@ You can use the following keywords to control Sonos:
 This workflow is unaffiliated with nor endorsed by Sonos. Thanks to [Daniel John Jones](https://twitter.com/ideoforms?s=21) for his support.
 
 You can [file bugs](https://github.com/chrismessina/alfred-sonos-toolkit/issues/new) or [submit feature requests](https://github.com/chrismessina/alfred-sonos-toolkit/issues/new) on GitHub using the label `workflow:sonos-toolkit`.
+
+<a href="https://www.alfredforum.com/topic/15686-workflow-sonos-toolkit/">Alfred Forum link</a>
