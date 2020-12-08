@@ -36,6 +36,11 @@ You can use the following keywords to control Sonos:
 
 # Changelog[¹](https://keepachangelog.com/)
 
+## [v0.1.3] - 2020-12-08
+
+### Changed
+- Updated Workflow icon
+
 ## [v0.1.2] - 2020-11-26
 
 ### Changed

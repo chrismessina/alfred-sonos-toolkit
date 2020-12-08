@@ -946,7 +946,7 @@ It makes it easy to control playback directly from Alfred.
 
 🎩 You can find my Alfred Themes and Workflows here:
 
-https://chrismessina.github.io/alfred-app/
+https://github.com/chrismessina?tab=repositories&amp;q=alfred
 
 ☕ You can also tip me a coffee or two if you like:
 
@@ -1163,7 +1163,7 @@ Inspired by Jeff Johns’s [Sonos Sound Controls workflow](https://github.com/ph
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>0.1.2</string>
+	<string>0.1.3</string>
 	<key>webaddress</key>
 	<string>https://chrismessina.me</string>
 </dict>
